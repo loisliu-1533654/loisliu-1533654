@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+<!--------------- TYPING/MOVING TITLE ----------------------->
+
+<script type="text/javascript">
+var rev = "fwd";
+function titlebar(val)
+{
+var msg = "lois's website woohoo!!!";
+var res = " ";
+var speed = 100;
+var pos = val;
+msg = "lois's website woohoo!!!";
+var le = msg.length;
+if(rev == "fwd"){
+if(pos < le){
+pos = pos+1;
+scroll = msg.substr(0,pos);
+document.title = scroll;
+timer = window.setTimeout("titlebar("+pos+")",speed);}
+else{
+rev = "bwd";
+timer = window.setTimeout("titlebar("+pos+")",speed);}}
+else{
+if(pos > 0){
+pos = pos-1;
+var ale = le-pos;
+scrol = msg.substr(ale,le);
+document.title = scrol;
+timer = window.setTimeout("titlebar("+pos+")",speed);}
+else{
+rev = "fwd";
+timer = window.setTimeout("titlebar("+pos+")",speed);
+}}}
+titlebar(0);
+</script>
+<!---->
+</head>
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Welcome</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Refresh</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Things</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">More Things</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="https://dl.dropboxusercontent.com/s/qak10hh995s57i6/IMG_1274.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%" title="simp girl">
+      <div class="w3-left-align w3-padding-large">
+  <font face="courier new">     
+	  <center> <p>I'm a fan of skylines, brunch dates, the occasional beauty purchase, and dogs in raincoats
+        <p>I spend too much money on festivals and boba
+		<p>Living the fine line between art hoe and ABG
+        </p></font></center>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Things</h2>
+	<center>	  <b><p> Websites</p></b> </center>
+	  <ul>
+		  <li>
+			  <a href="http://www.vogue.com/">Vogue</a>
+		
+		  <li>
+			  <a href="http://world.time.com/timelapse/">Time's Timelapse</a>
+	
+		  <li>
+			  <a href="http://www.staggeringbeauty.com/">Staggering Beauty</a>
+		  </li>
+		  </ul>
+    </div><b> Pics</b><br>(click on any one)
+    <div class="w3-row">
+      <div class="w3-half">
+		  
+      <a href="http://www.fallingfalling.com/">  <img src="https://68.media.tumblr.com/0d8c4d2caaa7e7cf05dc78367e53195a/tumblr_nogcmmYPg71qik19yo1_540.jpg" style="width:100%">
+      </div></a>
+      <div class="w3-half">
+     <a href="https://www.youtube.com/watch?v=CJnVCAxOLNA">   <img src="https://68.media.tumblr.com/511eb43538b8de9eb3bcf9a553e81bef/tumblr_nogcmmYPg71qik19yo2_1280.jpg" style="width:100%">
+     </a> </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <a href="http://heeeeeeeey.com"> <img src="https://68.media.tumblr.com/7e6c7a2ebe940a74bb56f4aca72a69bc/tumblr_nuzfk6OfE91rzn9vfo1_540.gif" style="width:100%">
+      </div></a>
+      <div class="w3-half">
+      <a href="https://open.spotify.com/user/12101797454/playlist/0iFTTIiZ2jQMeYeBem5eRu">  <img src="https://68.media.tumblr.com/6315fd801b33f79af5c243923f3e8031/tumblr_nuzfk6OfE91rzn9vfo2_540.gif" style="width:100%">
+      </div></a>
+      <div class="w3-half">
+    <a href="http://www.crunchyroll.com/polar-bear-cafe/episode-1-polar-bears-caf-595187"> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvxkh-mgyQB3Va-34mfdvoKkbXTG0GQLd-yggYRJtze8HTCTv6" style="width:100%">
+      </div></a>
+      <div class="w3-half">
+      <a href="http://ducksarethebest.com">  <img src="http://68.media.tumblr.com/122d6e3c147e0e78ef037c25ceb20794/tumblr_inline_ni9d4jlp9i1rd5a8y.gif" style="width:100%">
+      </div></a>
+    </div>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Things pt 2</h2>
+      <div class="w3-container w3-responsive">
+      <align=center>  <style>.gallery {
+     width:60%;
+     height:60%;
+     position: relative;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.gallery-image{
+cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+	.gallery-text{
+	    position: absolute;
+	    top: 0; right: 0;
+	    bottom: 0; left: 0;
+	    width: 100%;
+	    height: 100%; 
+	    text-align: center;
+	    background-color: rgba(0,0,0,0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	}
+
+	.gallery-text:hover{
+	    opacity: 1;      
+	}
+
+	.gallery-text h3{
+	    color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:100%;            
+	}</style><div class="gallery">
+<div class="gallery-image">
+  <img src="https://dl.dropboxusercontent.com/s/sdkd3ha12dh1cgw/IMG_1732.jpg" width="100%" height="100%" />
+<div class="gallery-text">
+<h3>woohoo</h3>
+  </div>
+  
+<div class="gallery-image">
+  <img src="https://dl.dropboxusercontent.com/s/xjluqauj8cm3ur4/XYCW1290.jpg" width="100%" height="100%" />
+  
+<div class="gallery-text"><h4>run</h4>
+
+</div>
+	</div>
+</div>    
+</div>  
+</div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Hi</h1>
+    <div class="w3-padding-64">
+ <style>
+p.dotted {border-style: dotted;}
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+}
+
+</style>
+</head>
+<body>
+ 
+<p class="dotted">A dotted border with some text in it. Coding is hard.</p> </div></style></div>
+<p id="rcorners2">Rounded corners! coding is still hard</p></style></div>
+
+
+  <div class="w3-half w3-teal w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>More Things</h1>
+	 <img src="https://s-media-cache-ak0.pinimg.com/originals/aa/ec/7e/aaec7ec90473edadaad74ac9a262c48b.png" style="float:left;width:100px;height:60px;">
+me in cat form. this is the floating element. blah blah blah blah blah blahblah blah blahblah blah blahblah blah blah
+</p>
+
+
+</div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16"></p>
+</footer>
+
+</body>
+</html>
