@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style>
-body {
-    background-color: linen;
+p.dotted {border-style: dotted;}
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
 }
-h1 {
-    color: maroon;
-    margin-left: 40px;
-} 
+
 </style>
-</head>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
